@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.passwordGeneratorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #301453;
+    color: white;
+    padding: 10px;
+}
+.outputArea{
+    width: 250px;
+    height: 42px;
+    background-color: #46019F;
+    padding: 8px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.outputText{
+    color: white;
+    margin: 0;
+    font-size: 22px;
+}
+.passwordSettings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textbox{
+    width: 40px;
+}
+.settingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 265px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.generateBtnContainer{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: #F3B200;
+    cursor: pointer;
+}
